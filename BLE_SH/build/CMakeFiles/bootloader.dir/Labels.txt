@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/home/abdulrahman/esp32wr/esp-idf/BLE_SH/build/CMakeFiles/bootloader
+/home/abdulrahman/esp32wr/esp-idf/BLE_SH/build/CMakeFiles/bootloader.rule
+/home/abdulrahman/esp32wr/esp-idf/BLE_SH/build/CMakeFiles/bootloader-complete.rule
+/home/abdulrahman/esp32wr/esp-idf/BLE_SH/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/home/abdulrahman/esp32wr/esp-idf/BLE_SH/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/home/abdulrahman/esp32wr/esp-idf/BLE_SH/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/home/abdulrahman/esp32wr/esp-idf/BLE_SH/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/home/abdulrahman/esp32wr/esp-idf/BLE_SH/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/home/abdulrahman/esp32wr/esp-idf/BLE_SH/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/home/abdulrahman/esp32wr/esp-idf/BLE_SH/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

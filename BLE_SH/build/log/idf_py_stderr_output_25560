@@ -1,0 +1,30 @@
+CMake Warning (author) at /snap/cmake/1587/share/cmake-4.5/Modules/ExternalProject.cmake:2688 (message):
+  Policy CMP0225 is not set: ExternalProject sets CMAKE_INSTALL_PREFIX to
+  <INSTALL_DIR> in the default configure command.  Run "cmake --help-policy
+  CMP0225" for policy details.  Use the cmake_policy command to set the
+  policy and suppress this warning.
+
+  ExternalProject_Add(bootloader) uses the default configure command without
+  a CMAKE_INSTALL_PREFIX.  The OLD behavior leaves the external project's
+  install prefix at the CMake default; the NEW behavior sets it to
+  <INSTALL_DIR>.
+Call Stack (most recent call first):
+  /snap/cmake/1587/share/cmake-4.5/Modules/ExternalProject.cmake:2833 (_ep_extract_configure_command)
+  /snap/cmake/1587/share/cmake-4.5/Modules/ExternalProject.cmake:3316 (_ep_add_configure_command)
+  /home/abdulrahman/esp32wr/esp-idf/components/bootloader/project_include.cmake:122 (externalproject_add)
+  /home/abdulrahman/esp32wr/esp-idf/tools/cmake/build.cmake:437 (include)
+  /home/abdulrahman/esp32wr/esp-idf/tools/cmake/build.cmake:669 (__build_process_project_includes)
+  /home/abdulrahman/esp32wr/esp-idf/tools/cmake/project.cmake:710 (idf_build_process)
+  CMakeLists.txt:5 (project)
+This warning is for project developers.  Use -Wno-author to suppress it.
+
+CMake Warning (deprecated) at /home/abdulrahman/esp32wr/esp-idf/components/mbedtls/mbedtls/CMakeLists.txt:21 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+This warning is for project developers.  Use -Wno-author or -Wno-deprecated
+to suppress it.
+
