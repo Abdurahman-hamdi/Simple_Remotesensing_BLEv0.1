@@ -1,5 +1,5 @@
 # Simple_Remotesensing_BLEv0.1
-ESP32 BLE Remotesensing Controller built with ESP-IDF (NimBLE). Features dual GATT services for real-time fire alarm notifications (READ/NOTIFY) and remote GPIO lighting control (READ/WRITE), optimized for low-memory embedded environments.
+ESP32 BLE Remotesensing Controller built with ESP-IDF (Bluedriod). Features dual GATT services for real-time fire alarm notifications (READ/NOTIFY) and remote GPIO lighting control (READ/WRITE), optimized for low-memory embedded environments.
 # RemoteSensing_BLE (ESP32 / ESP-IDF Bluedroid)
 
 A hybrid **Bluetooth Low Energy (BLE) Beacon and GATT Server** firmware for the ESP32, built on **ESP-IDF** using the **Bluedroid** host stack. Designed for low-power remote sensing nodes, it broadcasts live gas/fire hazard status without requiring pairing while allowing authorized mobile clients to connect and toggle physical actuators (lighting/relays) over GATT.
